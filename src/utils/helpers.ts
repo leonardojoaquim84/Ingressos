@@ -94,8 +94,5 @@ export function generateCondensedWhatsAppText(pedido: PedidoEvento): string {
     linhas.push(`• Placa: ${v.placa || '-'}`);
   }
 
-  linhas.push(``);
-  linhas.push(`_Registrado em: ${new Date(pedido.criadoEm).toLocaleString('pt-BR')}_`);
-
   return linhas.join('\n');
 }
