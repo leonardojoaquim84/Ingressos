@@ -1,0 +1,6 @@
+{
+  "name": "Formulário padrão para pedido informal de ingresso para evento",
+  "description": "Formulário padrão para pedido informal de ingresso para evento com cadastro de interessados, veículo, histórico e envio em JPEG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
